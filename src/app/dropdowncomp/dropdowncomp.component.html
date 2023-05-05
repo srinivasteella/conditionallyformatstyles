@@ -1,0 +1,12 @@
+<ng-select
+  [items]="cities"
+  bindLabel="name"
+  (change)="onActChange()"
+  placeholder="Select city"
+  #selectcity
+  [addTag]="false"
+  [multiple]="false"
+  [searchable]="false"
+  [(ngModel)]="city"
+>
+</ng-select>

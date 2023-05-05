@@ -1,0 +1,16 @@
+body {
+	background: #eeeeee;
+	font-family: 'Varela Round', sans-serif;
+}
+
+:host ::ng-deep {
+	app-dropdowncomp {
+	  .ng-select.ng-touched {
+		border-radius: 4px;
+		border: 1px solid #dc3545;
+		#error {
+		  display: none;
+		}
+	  }
+	}
+  }
